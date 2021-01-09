@@ -1,0 +1,46 @@
+
+#!/bin/bash
+# Bash Menu Script Example
+
+parent_path=$( cd "$(dirname "${BASH_SOURCE[0]}")" ; pwd -P )
+
+cd "$parent_path/"
+
+PS3='Please enter your choice: '
+options=("Bash" "VsCode" "Install" "Purge" "Server" "ios-dev" "android-dev" "build-android-stage")
+select opt in "${options[@]}"
+do
+    case $opt in
+        "Bash")
+            echo "you chose choice 1"
+            bash
+            ;;
+        "VsCode")
+            echo "you chose choice 1"
+            code .
+            ;;
+        "Install")
+            echo "you chose choice 1"
+            npm install
+            ;;
+        "Purge")
+            echo "you chose choice 2"
+            npm run purge
+            ;;
+        "Server")
+            echo "you chose choice 2"
+            npm start
+            ;;
+        "ios-dev")
+            echo "you chose choice $REPLY which is $opt"
+            npm run ios-dev
+            ;;
+        "android-dev")
+            npm run android-dev
+            ;;
+        "build-android-stage")
+            npm run build-android-stage
+            ;;
+        *) echo "invalid option $REPLY";;
+    esac
+done

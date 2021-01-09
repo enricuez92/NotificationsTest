@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test.iml" filepath="$PROJECT_DIR$/.idea/modules/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/test.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/test.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1605957437/test.lottie-react-native.iml" filepath="$PROJECT_DIR$/.idea/modules/1605957437/test.lottie-react-native.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2049704911/test.react-native-community_async-storage.iml" filepath="$PROJECT_DIR$/.idea/modules/-2049704911/test.react-native-community_async-storage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-720920558/test.react-native-community_netinfo.iml" filepath="$PROJECT_DIR$/.idea/modules/-720920558/test.react-native-community_netinfo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-960090548/test.react-native-firebase_app.iml" filepath="$PROJECT_DIR$/.idea/modules/-960090548/test.react-native-firebase_app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/433774177/test.react-native-push-notification.iml" filepath="$PROJECT_DIR$/.idea/modules/433774177/test.react-native-push-notification.iml" />
+    </modules>
+  </component>
+</project>

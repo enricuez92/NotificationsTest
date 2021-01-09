@@ -1,0 +1,425 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.test"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:8:5-78
+11-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:8:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:5:5-79
+13-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:5:22-76
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:6:5-65
+14-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:6:22-62
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:7:5-81
+15-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:7:22-78
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:9:5-80
+16-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:9:22-77
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:5:5-79
+17-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:5:22-76
+18    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+18-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:11:5-81
+18-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:11:22-78
+19    <uses-permission android:name="android.permission.BLUETOOTH" />
+19-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:12:5-68
+19-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:12:22-65
+20    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+20-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:13:5-74
+20-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:13:22-71
+21
+22    <uses-permission-sdk-23 android:name="android.permission.ACCESS_FINE_LOCATION" />
+22-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:15:5-86
+22-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:15:29-83
+23
+24    <uses-feature
+24-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:16:5-18:35
+25        android:name="android.hardware.bluetooth_le"
+25-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:17:9-53
+26        android:required="true" /> <!-- < Only if you're using GCM or localNotificationSchedule() > -->
+26-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:18:9-32
+27    <uses-permission android:name="android.permission.WAKE_LOCK" />
+27-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:21:5-68
+27-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:21:22-65
+28
+29    <permission
+30        android:name="com.test.permission.C2D_MESSAGE"
+31        android:protectionLevel="signature" />
+32
+33    <uses-permission android:name="com.test.permission.C2D_MESSAGE" /> <!-- < Only if you're using GCM or localNotificationSchedule() > -->
+34    <uses-permission android:name="android.permission.VIBRATE" />
+34-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:28:5-66
+34-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:28:22-63
+35    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+35-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:11:5-81
+35-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:11:22-78
+36    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+36-->[com.facebook.flipper:flipper:0.54.0] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/f206cfc6b1e48d5543fcedaf9534092d/flipper-0.54.0/AndroidManifest.xml:16:5-76
+36-->[com.facebook.flipper:flipper:0.54.0] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/f206cfc6b1e48d5543fcedaf9534092d/flipper-0.54.0/AndroidManifest.xml:16:22-73
+37    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+37-->[com.google.firebase:firebase-iid:21.0.1] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/211f83a358da2197a91ab94a181a100d/firebase-iid-21.0.1/AndroidManifest.xml:26:5-82
+37-->[com.google.firebase:firebase-iid:21.0.1] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/211f83a358da2197a91ab94a181a100d/firebase-iid-21.0.1/AndroidManifest.xml:26:22-79
+38    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- for android -->
+38-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/a2f7b35db28c673fedfb74f846febff3/play-services-measurement-18.0.0/AndroidManifest.xml:26:5-110
+38-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/a2f7b35db28c673fedfb74f846febff3/play-services-measurement-18.0.0/AndroidManifest.xml:26:22-107
+39    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+40    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+41    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+42    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+43    <!-- for Samsung -->
+44    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+44-->[me.leolin:ShortcutBadger:1.1.22] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/e8872a0de982cca029a64939e529f36c/ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
+44-->[me.leolin:ShortcutBadger:1.1.22] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/e8872a0de982cca029a64939e529f36c/ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
+45    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+45-->[me.leolin:ShortcutBadger:1.1.22] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/e8872a0de982cca029a64939e529f36c/ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
+45-->[me.leolin:ShortcutBadger:1.1.22] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/e8872a0de982cca029a64939e529f36c/ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
+46    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+46-->[me.leolin:ShortcutBadger:1.1.22] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/e8872a0de982cca029a64939e529f36c/ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
+46-->[me.leolin:ShortcutBadger:1.1.22] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/e8872a0de982cca029a64939e529f36c/ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
+47    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+47-->[me.leolin:ShortcutBadger:1.1.22] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/e8872a0de982cca029a64939e529f36c/ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
+47-->[me.leolin:ShortcutBadger:1.1.22] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/e8872a0de982cca029a64939e529f36c/ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
+48    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+48-->[me.leolin:ShortcutBadger:1.1.22] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/e8872a0de982cca029a64939e529f36c/ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
+48-->[me.leolin:ShortcutBadger:1.1.22] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/e8872a0de982cca029a64939e529f36c/ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
+49    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+49-->[me.leolin:ShortcutBadger:1.1.22] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/e8872a0de982cca029a64939e529f36c/ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
+49-->[me.leolin:ShortcutBadger:1.1.22] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/e8872a0de982cca029a64939e529f36c/ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
+50    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+50-->[me.leolin:ShortcutBadger:1.1.22] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/e8872a0de982cca029a64939e529f36c/ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
+50-->[me.leolin:ShortcutBadger:1.1.22] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/e8872a0de982cca029a64939e529f36c/ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
+51    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+51-->[me.leolin:ShortcutBadger:1.1.22] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/e8872a0de982cca029a64939e529f36c/ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
+51-->[me.leolin:ShortcutBadger:1.1.22] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/e8872a0de982cca029a64939e529f36c/ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
+52    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+52-->[me.leolin:ShortcutBadger:1.1.22] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/e8872a0de982cca029a64939e529f36c/ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
+52-->[me.leolin:ShortcutBadger:1.1.22] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/e8872a0de982cca029a64939e529f36c/ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
+53    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+53-->[me.leolin:ShortcutBadger:1.1.22] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/e8872a0de982cca029a64939e529f36c/ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
+53-->[me.leolin:ShortcutBadger:1.1.22] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/e8872a0de982cca029a64939e529f36c/ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
+54    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+54-->[me.leolin:ShortcutBadger:1.1.22] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/e8872a0de982cca029a64939e529f36c/ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
+54-->[me.leolin:ShortcutBadger:1.1.22] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/e8872a0de982cca029a64939e529f36c/ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
+55    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+55-->[me.leolin:ShortcutBadger:1.1.22] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/e8872a0de982cca029a64939e529f36c/ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
+55-->[me.leolin:ShortcutBadger:1.1.22] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/e8872a0de982cca029a64939e529f36c/ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
+56    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+56-->[me.leolin:ShortcutBadger:1.1.22] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/e8872a0de982cca029a64939e529f36c/ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
+56-->[me.leolin:ShortcutBadger:1.1.22] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/e8872a0de982cca029a64939e529f36c/ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
+57    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+57-->[me.leolin:ShortcutBadger:1.1.22] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/e8872a0de982cca029a64939e529f36c/ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
+57-->[me.leolin:ShortcutBadger:1.1.22] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/e8872a0de982cca029a64939e529f36c/ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
+58    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+58-->[me.leolin:ShortcutBadger:1.1.22] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/e8872a0de982cca029a64939e529f36c/ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
+58-->[me.leolin:ShortcutBadger:1.1.22] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/e8872a0de982cca029a64939e529f36c/ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
+59    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+59-->[me.leolin:ShortcutBadger:1.1.22] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/e8872a0de982cca029a64939e529f36c/ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
+59-->[me.leolin:ShortcutBadger:1.1.22] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/e8872a0de982cca029a64939e529f36c/ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86
+60
+61    <application
+61-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:31:5-102:19
+62        android:name="com.test.MainApplication"
+62-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:32:9-40
+63        android:allowBackup="false"
+63-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:33:9-36
+64        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+64-->[androidx.core:core:1.1.0] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/a9b3ef497d613abc93c096e0285cd7f1/core-1.1.0/AndroidManifest.xml:24:18-86
+65        android:debuggable="true"
+66        android:icon="@mipmap/ic_launcher"
+66-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:34:9-43
+67        android:label="@string/app_name"
+67-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:35:9-41
+68        android:roundIcon="@mipmap/ic_launcher_round"
+68-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:36:9-54
+69        android:testOnly="true"
+70        android:theme="@style/AppTheme"
+70-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:37:9-40
+71        android:usesCleartextTraffic="true" >
+71-->/Users/egiacalone/Desktop/test/test/android/app/src/debug/AndroidManifest.xml:7:18-53
+72        <activity
+72-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:38:9-48:20
+73            android:name="com.test.MainActivity"
+73-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:39:13-41
+74            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+74-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:40:13-90
+75            android:label="@string/app_name"
+75-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:41:13-45
+76            android:launchMode="singleTask"
+76-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:42:13-44
+77            android:windowSoftInputMode="adjustResize" >
+77-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:43:13-55
+78            <intent-filter>
+78-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:44:13-47:29
+79                <action android:name="android.intent.action.MAIN" />
+79-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:45:17-69
+79-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:45:25-66
+80
+81                <category android:name="android.intent.category.LAUNCHER" />
+81-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:46:17-77
+81-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:46:27-74
+82            </intent-filter>
+83        </activity>
+84        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+84-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:51:9-86
+84-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:51:19-83
+85
+86        <meta-data
+86-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:54:9-56:49
+87            android:name="com.dieam.reactnativepushnotification.notification_channel_name"
+87-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:55:13-91
+88            android:value="test energia push" />
+88-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:56:13-46
+89        <meta-data
+89-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:57:9-59:70
+90            android:name="com.dieam.reactnativepushnotification.notification_channel_description"
+90-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:58:13-98
+91            android:value="test energia push notification channel" />
+91-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:59:13-67
+92        <meta-data
+92-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:61:9-62:31
+93            android:name="com.dieam.reactnativepushnotification.notification_foreground"
+93-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:61:20-96
+94            android:value="true" />
+94-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:62:9-29
+95        <meta-data
+95-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:64:9-66:57
+96            android:name="com.google.firebase.messaging.default_notification_channel_id"
+96-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:65:7-83
+97            android:value="default_notification_channel_id" /> <!-- Change the resource name to your App's accent color - or any other color you want -->
+97-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:66:7-54
+98        <meta-data
+98-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:69:9-71:55
+99            android:name="com.dieam.reactnativepushnotification.notification_color"
+99-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:70:13-84
+100            android:resource="@android:color/white" /> <!-- < Only if you're using GCM or localNotificationSchedule() > -->
+100-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:71:13-52
+101        <!-- < Only if you're using GCM or localNotificationSchedule() > -->
+102        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationPublisher" />
+102-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:75:9-110
+102-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:75:19-107
+103        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationBootEventReceiver" >
+103-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:76:9-80:20
+103-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:76:19-115
+104            <intent-filter>
+104-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:77:13-79:29
+105                <action android:name="android.intent.action.BOOT_COMPLETED" />
+105-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:78:17-79
+105-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:78:25-76
+106            </intent-filter>
+107        </receiver>
+108
+109        <service android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationRegistrationService" /> <!-- < Only if you're using GCM or localNotificationSchedule() > -->
+109-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:82:9-119
+109-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:82:18-116
+110        <service
+110-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:84:9-90:19
+111            android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationListenerServiceGcm"
+111-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:85:13-110
+112            android:exported="false" >
+112-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:86:13-37
+113            <intent-filter>
+113-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:87:13-89:29
+114                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+114-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:88:17-81
+114-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:88:25-78
+115            </intent-filter>
+116        </service> <!-- </ Only if you're using GCM or localNotificationSchedule() > -->
+117        <!-- < Else > -->
+118        <service
+118-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:93:9-99:19
+119            android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationListenerService"
+119-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:94:13-107
+120            android:exported="false" >
+120-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:95:13-37
+121            <intent-filter>
+121-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:96:13-98:29
+122                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+122-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:97:17-78
+122-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:97:25-75
+123            </intent-filter>
+124        </service>
+125        <!--
+126             FirebaseMessagingService performs security checks at runtime,
+127             but set to not exported to explicitly avoid allowing another app to call it.
+128        -->
+129        <service
+129-->[com.google.firebase:firebase-messaging:21.0.1] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/afcf46144bb352e177ca53b5af5a2306/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:28:9-35:19
+130            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+130-->[com.google.firebase:firebase-messaging:21.0.1] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/afcf46144bb352e177ca53b5af5a2306/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:29:13-82
+131            android:directBootAware="true"
+131-->[com.google.firebase:firebase-messaging:21.0.1] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/afcf46144bb352e177ca53b5af5a2306/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:30:13-43
+132            android:exported="false" >
+132-->[com.google.firebase:firebase-messaging:21.0.1] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/afcf46144bb352e177ca53b5af5a2306/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:31:13-37
+133            <intent-filter android:priority="-500" >
+133-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:96:13-98:29
+134                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+134-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:97:17-78
+134-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:97:25-75
+135            </intent-filter>
+136        </service>
+137        <service
+137-->[com.google.firebase:firebase-messaging:21.0.1] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/afcf46144bb352e177ca53b5af5a2306/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:36:9-42:19
+138            android:name="com.google.firebase.components.ComponentDiscoveryService"
+138-->[com.google.firebase:firebase-messaging:21.0.1] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/afcf46144bb352e177ca53b5af5a2306/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:37:13-84
+139            android:directBootAware="true"
+139-->[com.google.firebase:firebase-common:19.5.0] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/3b78637353622e8523c6346ef0ca91f4/jetified-firebase-common-19.5.0/AndroidManifest.xml:35:13-43
+140            android:exported="false" >
+140-->[com.google.firebase:firebase-messaging:21.0.1] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/afcf46144bb352e177ca53b5af5a2306/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:38:13-37
+141            <meta-data
+141-->[com.google.firebase:firebase-messaging:21.0.1] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/afcf46144bb352e177ca53b5af5a2306/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:39:13-41:85
+142                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+142-->[com.google.firebase:firebase-messaging:21.0.1] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/afcf46144bb352e177ca53b5af5a2306/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:40:17-119
+143                android:value="com.google.firebase.components.ComponentRegistrar" />
+143-->[com.google.firebase:firebase-messaging:21.0.1] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/afcf46144bb352e177ca53b5af5a2306/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:41:17-82
+144            <meta-data
+144-->[com.google.firebase:firebase-datatransport:17.0.10] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/991e5210a524f3c570863b6614c82988/firebase-datatransport-17.0.10/AndroidManifest.xml:28:13-30:85
+145                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+145-->[com.google.firebase:firebase-datatransport:17.0.10] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/991e5210a524f3c570863b6614c82988/firebase-datatransport-17.0.10/AndroidManifest.xml:29:17-115
+146                android:value="com.google.firebase.components.ComponentRegistrar" />
+146-->[com.google.firebase:firebase-datatransport:17.0.10] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/991e5210a524f3c570863b6614c82988/firebase-datatransport-17.0.10/AndroidManifest.xml:30:17-82
+147            <meta-data
+147-->[com.google.firebase:firebase-iid:21.0.1] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/211f83a358da2197a91ab94a181a100d/firebase-iid-21.0.1/AndroidManifest.xml:32:13-34:85
+148                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+148-->[com.google.firebase:firebase-iid:21.0.1] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/211f83a358da2197a91ab94a181a100d/firebase-iid-21.0.1/AndroidManifest.xml:33:17-96
+149                android:value="com.google.firebase.components.ComponentRegistrar" />
+149-->[com.google.firebase:firebase-iid:21.0.1] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/211f83a358da2197a91ab94a181a100d/firebase-iid-21.0.1/AndroidManifest.xml:34:17-82
+150            <meta-data
+150-->[com.google.android.gms:play-services-measurement-api:18.0.0] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/4e9279176838fb0871131fa607cf7c8f/play-services-measurement-api-18.0.0/AndroidManifest.xml:30:13-32:85
+151                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+151-->[com.google.android.gms:play-services-measurement-api:18.0.0] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/4e9279176838fb0871131fa607cf7c8f/play-services-measurement-api-18.0.0/AndroidManifest.xml:31:17-139
+152                android:value="com.google.firebase.components.ComponentRegistrar" />
+152-->[com.google.android.gms:play-services-measurement-api:18.0.0] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/4e9279176838fb0871131fa607cf7c8f/play-services-measurement-api-18.0.0/AndroidManifest.xml:32:17-82
+153            <meta-data
+153-->[com.google.firebase:firebase-installations:16.3.5] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/c3e700fa96845ad4526bd997e59d4c31/firebase-installations-16.3.5/AndroidManifest.xml:18:13-20:85
+154                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+154-->[com.google.firebase:firebase-installations:16.3.5] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/c3e700fa96845ad4526bd997e59d4c31/firebase-installations-16.3.5/AndroidManifest.xml:19:17-127
+155                android:value="com.google.firebase.components.ComponentRegistrar" />
+155-->[com.google.firebase:firebase-installations:16.3.5] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/c3e700fa96845ad4526bd997e59d4c31/firebase-installations-16.3.5/AndroidManifest.xml:20:17-82
+156            <!--
+157                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
+158                clients to use it as well, by defining this registrar in their own core/common library.
+159            -->
+160            <meta-data
+160-->[com.google.firebase:firebase-common:19.5.0] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/3b78637353622e8523c6346ef0ca91f4/jetified-firebase-common-19.5.0/AndroidManifest.xml:43:13-45:85
+161                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
+161-->[com.google.firebase:firebase-common:19.5.0] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/3b78637353622e8523c6346ef0ca91f4/jetified-firebase-common-19.5.0/AndroidManifest.xml:44:17-121
+162                android:value="com.google.firebase.components.ComponentRegistrar" />
+162-->[com.google.firebase:firebase-common:19.5.0] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/3b78637353622e8523c6346ef0ca91f4/jetified-firebase-common-19.5.0/AndroidManifest.xml:45:17-82
+163        </service>
+164        <service
+164-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/ee8a2a1dfcb9447f8ecc259997909b61/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:29:9-35:19
+165            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+165-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/ee8a2a1dfcb9447f8ecc259997909b61/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:30:13-103
+166            android:exported="false" >
+166-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/ee8a2a1dfcb9447f8ecc259997909b61/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:31:13-37
+167            <meta-data
+167-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/ee8a2a1dfcb9447f8ecc259997909b61/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:32:13-34:39
+168                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+168-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/ee8a2a1dfcb9447f8ecc259997909b61/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:33:17-94
+169                android:value="cct" />
+169-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/ee8a2a1dfcb9447f8ecc259997909b61/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:34:17-36
+170        </service>
+171
+172        <receiver
+172-->[com.google.firebase:firebase-iid:21.0.1] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/211f83a358da2197a91ab94a181a100d/firebase-iid-21.0.1/AndroidManifest.xml:37:9-44:20
+173            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+173-->[com.google.firebase:firebase-iid:21.0.1] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/211f83a358da2197a91ab94a181a100d/firebase-iid-21.0.1/AndroidManifest.xml:38:13-78
+174            android:exported="true"
+174-->[com.google.firebase:firebase-iid:21.0.1] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/211f83a358da2197a91ab94a181a100d/firebase-iid-21.0.1/AndroidManifest.xml:39:13-36
+175            android:permission="com.google.android.c2dm.permission.SEND" >
+175-->[com.google.firebase:firebase-iid:21.0.1] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/211f83a358da2197a91ab94a181a100d/firebase-iid-21.0.1/AndroidManifest.xml:40:13-73
+176            <intent-filter>
+176-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:87:13-89:29
+177                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+177-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:88:17-81
+177-->/Users/egiacalone/Desktop/test/test/android/app/src/main/AndroidManifest.xml:88:25-78
+178            </intent-filter>
+179        </receiver>
+180
+181        <provider
+181-->[com.google.firebase:firebase-common:19.5.0] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/3b78637353622e8523c6346ef0ca91f4/jetified-firebase-common-19.5.0/AndroidManifest.xml:26:9-31:39
+182            android:name="com.google.firebase.provider.FirebaseInitProvider"
+182-->[com.google.firebase:firebase-common:19.5.0] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/3b78637353622e8523c6346ef0ca91f4/jetified-firebase-common-19.5.0/AndroidManifest.xml:27:13-77
+183            android:authorities="com.test.firebaseinitprovider"
+183-->[com.google.firebase:firebase-common:19.5.0] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/3b78637353622e8523c6346ef0ca91f4/jetified-firebase-common-19.5.0/AndroidManifest.xml:28:13-72
+184            android:directBootAware="true"
+184-->[com.google.firebase:firebase-common:19.5.0] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/3b78637353622e8523c6346ef0ca91f4/jetified-firebase-common-19.5.0/AndroidManifest.xml:29:13-43
+185            android:exported="false"
+185-->[com.google.firebase:firebase-common:19.5.0] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/3b78637353622e8523c6346ef0ca91f4/jetified-firebase-common-19.5.0/AndroidManifest.xml:30:13-37
+186            android:initOrder="100" />
+186-->[com.google.firebase:firebase-common:19.5.0] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/3b78637353622e8523c6346ef0ca91f4/jetified-firebase-common-19.5.0/AndroidManifest.xml:31:13-36
+187
+188        <service
+188-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/c12a80ff1e1958c1565e7fe1b3d9b0bd/jetified-transport-runtime-2.2.5/AndroidManifest.xml:26:9-30:19
+189            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+189-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/c12a80ff1e1958c1565e7fe1b3d9b0bd/jetified-transport-runtime-2.2.5/AndroidManifest.xml:27:13-117
+190            android:exported="false"
+190-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/c12a80ff1e1958c1565e7fe1b3d9b0bd/jetified-transport-runtime-2.2.5/AndroidManifest.xml:28:13-37
+191            android:permission="android.permission.BIND_JOB_SERVICE" >
+191-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/c12a80ff1e1958c1565e7fe1b3d9b0bd/jetified-transport-runtime-2.2.5/AndroidManifest.xml:29:13-69
+192        </service>
+193
+194        <receiver
+194-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/c12a80ff1e1958c1565e7fe1b3d9b0bd/jetified-transport-runtime-2.2.5/AndroidManifest.xml:32:9-34:40
+195            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+195-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/c12a80ff1e1958c1565e7fe1b3d9b0bd/jetified-transport-runtime-2.2.5/AndroidManifest.xml:33:13-132
+196            android:exported="false" />
+196-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/c12a80ff1e1958c1565e7fe1b3d9b0bd/jetified-transport-runtime-2.2.5/AndroidManifest.xml:34:13-37
+197        <receiver
+197-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/a2f7b35db28c673fedfb74f846febff3/play-services-measurement-18.0.0/AndroidManifest.xml:29:9-33:20
+198            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+198-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/a2f7b35db28c673fedfb74f846febff3/play-services-measurement-18.0.0/AndroidManifest.xml:30:13-85
+199            android:enabled="true"
+199-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/a2f7b35db28c673fedfb74f846febff3/play-services-measurement-18.0.0/AndroidManifest.xml:31:13-35
+200            android:exported="false" >
+200-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/a2f7b35db28c673fedfb74f846febff3/play-services-measurement-18.0.0/AndroidManifest.xml:32:13-37
+201        </receiver>
+202
+203        <service
+203-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/a2f7b35db28c673fedfb74f846febff3/play-services-measurement-18.0.0/AndroidManifest.xml:35:9-38:40
+204            android:name="com.google.android.gms.measurement.AppMeasurementService"
+204-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/a2f7b35db28c673fedfb74f846febff3/play-services-measurement-18.0.0/AndroidManifest.xml:36:13-84
+205            android:enabled="true"
+205-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/a2f7b35db28c673fedfb74f846febff3/play-services-measurement-18.0.0/AndroidManifest.xml:37:13-35
+206            android:exported="false" />
+206-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/a2f7b35db28c673fedfb74f846febff3/play-services-measurement-18.0.0/AndroidManifest.xml:38:13-37
+207        <service
+207-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/a2f7b35db28c673fedfb74f846febff3/play-services-measurement-18.0.0/AndroidManifest.xml:39:9-43:72
+208            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+208-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/a2f7b35db28c673fedfb74f846febff3/play-services-measurement-18.0.0/AndroidManifest.xml:40:13-87
+209            android:enabled="true"
+209-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/a2f7b35db28c673fedfb74f846febff3/play-services-measurement-18.0.0/AndroidManifest.xml:41:13-35
+210            android:exported="false"
+210-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/a2f7b35db28c673fedfb74f846febff3/play-services-measurement-18.0.0/AndroidManifest.xml:42:13-37
+211            android:permission="android.permission.BIND_JOB_SERVICE" />
+211-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/a2f7b35db28c673fedfb74f846febff3/play-services-measurement-18.0.0/AndroidManifest.xml:43:13-69
+212
+213        <activity
+213-->[com.google.android.gms:play-services-base:17.0.0] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/dcf55845fe702504546bcd6b434fd1ab/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+214            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+214-->[com.google.android.gms:play-services-base:17.0.0] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/dcf55845fe702504546bcd6b434fd1ab/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+215            android:exported="false"
+215-->[com.google.android.gms:play-services-base:17.0.0] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/dcf55845fe702504546bcd6b434fd1ab/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+216            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+216-->[com.google.android.gms:play-services-base:17.0.0] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/dcf55845fe702504546bcd6b434fd1ab/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+217
+218        <meta-data
+218-->[com.google.android.gms:play-services-basement:17.0.0] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/4e587dd636c14ce389663b4330433bae/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+219            android:name="com.google.android.gms.version"
+219-->[com.google.android.gms:play-services-basement:17.0.0] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/4e587dd636c14ce389663b4330433bae/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+220            android:value="@integer/google_play_services_version" />
+220-->[com.google.android.gms:play-services-basement:17.0.0] /Users/egiacalone/.gradle/caches/transforms-2/files-2.1/4e587dd636c14ce389663b4330433bae/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+221    </application>
+222
+223</manifest>
